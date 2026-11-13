@@ -15,3 +15,7 @@ npx skills@latest add mattpocock/skills --skill=<name>
 - **[claude-handoff](./claude-handoff/SKILL.md)**: Hand the current conversation off to a fresh background agent that picks up the work immediately, seeded with a handoff summary via `claude --bg`. User-invoked.
 - **[setup-ts-deep-modules](./setup-ts-deep-modules/SKILL.md)**: Wire dependency-cruiser into a TypeScript repo so each package is a deep module: implementation hidden in subfolders, reachable only through its entry-point files, tests exercising it through those. User-invoked.
 - **[software-factory](./software-factory/SKILL.md)**: Shared language for designing a software factory: the tasks it runs and the services it plugs into. Call it alongside a grilling session. User-invoked.
+- **[verification-before-completion](./verification-before-completion/SKILL.md)**: Run the command that proves a claim before saying work is done, fixed, or passing. Adapted from obra/superpowers.
+- **[using-git-worktrees](./using-git-worktrees/SKILL.md)**: Make sure work happens in an isolated workspace, preferring the harness's own worktree tool over `git worktree`. Adapted from obra/superpowers.
+- **[dispatching-parallel-agents](./dispatching-parallel-agents/SKILL.md)**: Split independent problems across subagents that run at the same time, one per problem. Adapted from obra/superpowers.
+- **[receiving-code-review](./receiving-code-review/SKILL.md)**: Check review feedback against the codebase before acting on it, then fix or push back with reasons. Adapted from obra/superpowers.
